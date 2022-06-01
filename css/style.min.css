@@ -1,0 +1,81 @@
+nav ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin-right: 25px;
+}
+nav ul a {
+  all: unset;
+}
+nav ul a:hover {
+  color: black;
+  border-bottom: solid 1px black;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -200px;
+  z-index: 100000000;
+  position: relative;
+}
+
+.banniere {
+  width: 200vh;
+  z-index: -1;
+}
+
+.bannieremenu {
+  width: 210vh;
+  height: 75vh;
+}
+
+.bannierehistoire {
+  width: 210vh;
+  height: 75vh;
+}
+
+.banniere-mentions {
+  width: 200vh;
+  height: 90vh;
+}
+
+.carte {
+  background-color: #ece2cd;
+}
+.carte img:hover {
+  opacity: 70%;
+}
+
+.adress {
+  border: solid 3px #eee2cb;
+  border-left: solid 1px white;
+}
+
+.fig {
+  list-style: none;
+}
+
+footer {
+  background-color: #ece2cd;
+}
+footer svg {
+  width: 1rem;
+}
+
+.resizemenu {
+  height: 50vh;
+}
+
+.resize {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.min.css.map */
